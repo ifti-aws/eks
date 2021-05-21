@@ -26,7 +26,7 @@ Preferably right click and open it in a new tab.
 
 | Region          | CloudFormation     |
 | --------------- |:------------------:|
-| eu-central-1 (Frankfurt)       | [![Launch Stack](https://s3.amazonaws.com/cloudformation-examples/cloudformation-launch-stack.png)](https://console.aws.amazon.com/cloudformation/home?region=eu-central-1#/stacks/create/review?stackName=cloud9&templateURL=https://eks2020.s3.eu-central-1.amazonaws.com/cloud9-template.yaml) |
+| eu-central-1 (Frankfurt)       | [![Launch Stack](https://s3.amazonaws.com/cloudformation-examples/cloudformation-launch-stack.png)](https://console.aws.amazon.com/cloudformation/home?region=eu-central-1#/stacks/create/review?stackName=cloud9&templateURL=https://eks2021.s3.eu-central-1.amazonaws.com/cloud9-template.yml) |
 
 Tick the `I acknowledge that AWS CloudFormation might create IAM resources.` checkbox then click on the `Create stack` button
 
@@ -111,11 +111,11 @@ eksctl scale nodegroup --cluster=eks --nodes=2 ng-xxxxxxx
 
 ### Submission
 
-Navigate to <https://submissions.vls-kubernetes.support.aws.dev/> and click the `Submit Challenge` button.
+Navigate to <https://deploymentvls-cpt.eks.aws.dev/> and click the `Submit Challenge` button.
 
 1. Please Make sure that the image which you build can be accessed publicly (DockerHub public repo under your account)
 2. If you successfully built the application, add the LoadBalancer URL in a file called url.txt , with the http url  **ONLY**
-3. Fill out the assessment in [assessment/](https://github.com/aws-els-cpt/eks/tree/master/project/assessment) together with all the yaml files used to solve the problem, zip it and upload it to: <https://submissions.vls-kubernetes.support.aws.dev#uploadChallange>.
+3. Fill out the assessment in [assessment/](https://github.com/aws-els-cpt/eks/tree/master/project/assessment) together with all the yaml files used to solve the problem, zip it and upload it to: <https://deploymentvls-cpt.eks.aws.dev/>.
 4. Make sure to zip all the files in the directory e.g.: `zip -r 01JohnSnow.zip *`
 
 Note:
